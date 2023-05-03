@@ -63,7 +63,7 @@ By default, it is not possible to create a custom field of type "Entity Select",
 
 First we set `custom-fields-aware` to true. Then we specify a field to use as a label for the entity when selecting via the custom field. In this case, we use the `name` field. The field must exist in the `fields` section of the entity definition and it must be of type `string`.
 
-Now you will find your entity in the "Entity Type" select when creating a custom field of type "Entity Select". Without a snippet label for the entity it will display as `custom_entity_bundle.label`. You can create a snippet to add a label like so:
+Now you will find your entity in the "Entity Type" select when creating a custom field of type "Entity Select". Without a snippet label for the entity, it will display as `custom_entity_bundle.label`. You can create a snippet to add a label like so:
 
 {% code title="Resources/app/administration/snippet/en-GB.json" %}
 
