@@ -42,7 +42,7 @@ POST /api/search/custom-entity-blog
 
 ## Custom Fields
 
-By default, it is not possible to create a custom field of type "Entity Select" which references a custom entity. However, you can opt in to this behavior. You will need to add the `custom-fields-aware` & `label-property` attributes to your entity definition:
+By default, it is not possible to create a custom field of type "Entity Select", which references a custom entity. However, you can opt in to this behavior. You will need to add the `custom-fields-aware` & `label-property` attributes to your entity definition:
 
 {% code title="Resources/entities.xml" %}
 
